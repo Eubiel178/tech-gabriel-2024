@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1f2233;
+  color: #fff;
+  position: relative;
+  height: 100dvh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .content-width {
+    width: clamp(12.5rem, 90vw, 62.5rem);
+  }
+
+  .container-config {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-1 {
+    font-size: 1.5625rem;
+    font-weight: 900;
+  }
+
+  .title-2 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+  }
+
+  .title-3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .border-bottom {
+    border-bottom: solid 4px #0284c7;
+    padding-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  [class*="y-default"] {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  [class*="y-default"] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  [class*="y-default"] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  [class*="y-default"] {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  [class*="y-default"] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  [class*="y-default"] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
