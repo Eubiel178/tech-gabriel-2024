@@ -1,43 +1,48 @@
 <img src="./src/assets/images/mario--banner.gif"/>
 
-**Gabriel Santos Portfolio**
+# Gabriel Santos — Portfólio
 
-### Descrição
+### 📋 Descrição
 
-Este é o código-fonte do [portfólio online de Gabriel Santos](https://tech-gabriel-nextjs.vercel.app/), um desenvolvedor FullStack em formação. O portfólio inclui seções sobre o desenvolvedor, suas habilidades, projetos realizados e formas de entrar em contato.
+Este é o código-fonte do [portfólio online de Gabriel Santos](https://tech-gabriel-nextjs.vercel.app/), Desenvolvedor Full Stack com foco em React, Next.js, TypeScript e Node.js. O portfólio apresenta minha trajetória profissional, habilidades técnicas, projetos desenvolvidos e formas de contato.
 
-### Estrutura do Código
+### 🚀 Tecnologias utilizadas
 
-O código está estruturado usando Next.js e consiste em vários componentes para representar diferentes seções do portfólio. Aqui está uma breve visão geral:
+- **Next.js** — estrutura e renderização
+- **React** — componentização de interfaces
+- **TypeScript** — tipagem e segurança de código
+- **Tailwind CSS** — estilização e responsividade
 
-1. **Cabeçario (Header):**
+### 🗂️ Estrutura do código
 
-   - Barra de navegação com links para seções específicas do portfólio.
+O projeto é organizado em componentes que representam cada seção do portfólio:
 
-2. **Sobre Mim (About):**
+1. **Header** — barra de navegação com links para as seções do site.
+2. **Sobre Mim** — apresentação, foto e botão de download do currículo.
+3. **Perfil profissional** — destaque de conexões, recomendações e link para o LinkedIn.
+4. **Experiência profissional** — histórico de trabalho com principais entregas e resultados.
+5. **Projetos** — projetos desenvolvidos, com imagens e links diretos.
+6. **Tecnologias e práticas** — habilidades técnicas e práticas profissionais.
+7. **Contato** — canais diretos: e-mail, LinkedIn, WhatsApp, Instagram e GitHub.
 
-   - Apresentação do desenvolvedor com uma breve descrição, uma imagem e um botão para baixar o currículo.
+### ▶️ Como rodar localmente
 
-3. **Habilidades (Skills):**
+```bash
+git clone https://github.com/Eubiel178/tech-gabriel-2024.git
+cd tech-gabriel-2024-main
+npm install
+npm run dev
+```
 
-   - Lista de habilidades técnicas e comportamentais.
+Acesse em `http://localhost:3000`.
 
-4. **Projetos (Projects):**
+### 📬 Contato
 
-   - Exibição de projetos realizados, com links para as respectivas páginas.
+- **Email:** [dev123gabriel@gmail.com](mailto:dev123gabriel@gmail.com)
+- **LinkedIn:** [devgabrielsilva](https://www.linkedin.com/in/devgabrielsilva)
+- **GitHub:** [Eubiel178](https://github.com/Eubiel178)
+- **WhatsApp:** [Enviar mensagem](https://wa.me/5575991096704?text=Ola%20Gabriel,%20tudo%20bem?)
 
-5. **Contatos:**
-   - Informações de contato, incluindo links para e-mail, LinkedIn, WhatsApp e Instagram.
+### 🔗 Acesse o portfólio
 
-### Contato
-
-Para entrar em contato com Gabriel Santos, você pode usar os seguintes canais:
-
-- Email: [dev123gabriel@gmail.com](mailto:dev123gabriel@gmail.com)
-- LinkedIn: [devgabrielsilva](https://www.linkedin.com/in/devgabrielsilva)
-- WhatsApp: [Enviar mensagem](https://wa.me/5575991096704?text=Ola%20Gabriel,%20tudo%20bem?)
-- Instagram: [tech_gabriel](https://www.instagram.com/tech_gabriel/)
-
-### Portfolio
-
-[Clique Aqui](https://tech-gabriel-nextjs.vercel.app/) para acessar o portfolio
+[👉 Clique aqui para visitar](https://tech-gabriel-2024.vercel.app)
