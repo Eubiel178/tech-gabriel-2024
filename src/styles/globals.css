@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1f2233;
+  color: #fff;
+  position: relative;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .content-width {
+    width: clamp(12.5rem, 90vw, 62.5rem);
+  }
+
+  .section-shell {
+    position: relative;
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: clamp(1.5rem, 2.3vw, 1.8rem);
+    font-weight: 700;
+  }
+
+  .section-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgb(56 189 248 / 0.35);
+    border-radius: 0.75rem;
+    color: rgb(125 211 252);
+    background: rgb(56 189 248 / 0.1);
+  }
+
+  .surface-card {
+    border: 1px solid rgb(100 116 139 / 0.45);
+    border-radius: 1rem;
+    background: linear-gradient(
+      145deg,
+      rgb(43 46 65 / 0.96),
+      rgb(35 37 58 / 0.96)
+    );
+    box-shadow: 0 14px 32px rgb(0 0 0 / 0.16);
+  }
+
+  .surface-card:hover {
+    border-color: rgb(56 189 248 / 0.65);
+    transform: translateY(-0.25rem);
+  }
+
+  .container-config {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-1 {
+    font-size: 1.5625rem;
+    font-weight: 900;
+  }
+
+  .title-2 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+  }
+
+  .title-3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .border-bottom {
+    border-bottom: solid 4px #0284c7;
+    padding-bottom: 3px;
+  }
+}
+
+[class*="y-default"] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  [class*="y-default"] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
